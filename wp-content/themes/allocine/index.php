@@ -15,9 +15,9 @@
         <div class="thumbnail">
           <?php
             if(has_post_thumbnail())
-            {
-              the_post_thumbnail("full");
-            }
+              {
+               the_post_thumbnail("hub_article_thumbnail");
+              }
           ?>
         </div>
         <h1><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h1>
